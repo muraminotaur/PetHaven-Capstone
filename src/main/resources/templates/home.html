@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pet Haven</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/slicknav.css" rel="stylesheet" />
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="checkout.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <section id="Top">
+    <div class="column first"><a href="tel:337.333.3333">337.333.3333</a></div>
+    <div class="column"><a href="#Donate">Donate Today</a></div>
+  </section>
+
+  <div class="main clearfix">
+    <div class="logo">
+      <a href="#"><img src="images/pethavenLogoType.png" alt="Pet Haven"></a>
+    </div>
+    <ul id="menu">
+      <li><a href="#Gallery">Gallery</a></li>
+      <li><a href="#AboutUs">About Us</a></li>
+      <li><a href="#Donate">Donate</a></li>
+    </ul>
+  </div><!--/ main -->
+
+</header>
+
+<section class="banner">
+
+  <div class="gradientfill"></div>
+  <video playsinline autoplay muted loop class="embed-responsive-item">
+    <source src="video/pexels-rodnae-productions-7982651.mp4" type="video/mp4">
+  </video>
+
+  <div class="title">
+    <h1 class="hideanimate animated textfade"><span>All Pets Deserve</span>A Loving Home</h1>
+    <p class="hideanimate animated textleft"><a href="tel:337.443.3373" class="call"><span>Call 337.333.3333</span></a></p>
+    <p class="hideanimate animated textright"><a href="#Donate" class="sched"><span>Donate Today</span></a></p>
+  </div><!--/ title -->
+
+</section>
+
+<section class="testiblock" id="Gallery">
+  <h3>Our Pets</h3>
+  <div class="container">
+    <div class="testislider owl-carousel owl-theme">
+      <div class="item">
+        <div class="box">
+          <img src="images/pexels-chevanon-photography-1108099%20(1).jpg" alt="">
+          <h4>Scout and Woof<span>Unadopted</span></h4>
+          <p>Two adorable Golden retrievers sititng in the field.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box">
+          <img src="images/pexels-chevanon-photography-1108099%20(1).jpg" alt="">
+          <h4>Scout and Woof<span>Unadopted</span></h4>
+          <p>Two adorable Golden retrievers sititng in the field.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box">
+          <img src="images/pexels-chevanon-photography-1108099%20(1).jpg" alt="">
+          <h4>Scout and Woof<span>Unadopted</span></h4>
+          <p>Two adorable Golden retrievers sititng in the field.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box">
+          <img src="images/pexels-chevanon-photography-1108099%20(1).jpg" alt="">
+          <h4>Scout and Woof<span>Unadopted</span></h4>
+          <p>Two adorable Golden retrievers sititng in the field.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="box">
+          <img src="images/pexels-chevanon-photography-1108099%20(1).jpg" alt="">
+          <h4>Scout and Woof<span>Unadopted</span></h4>
+          <p>Two adorable Golden retrievers sititng in the field.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="blocktext" id="AboutUs">
+  <h2>About Us</h2>
+  <div class="row phototext hideanimate animated rowleftright">
+    <div class="col-md-6 photoside">
+      <img src="images/pexels-chevanon-photography-1108099.jpg" alt="">
+    </div>
+    <div class="col-md-6 textside">
+      <div class="wrap">
+        <p>PetHaven was founded in 2011 by Sarah Nobel and Robin Ross. The two first met at University of Louisiana at Lafayette in the  Ragin Rescue. Through the laughter, fun,  friendship, and a love pets Pet Haven was born. We believe every animal deserves a safe, loving environment. Our mission statement derived from the love and care that originally founded the shelter.</p>
+
+        <p>Our mission at Pet Haven is to provide a safe, caring, and nurturing environment for all animals in need. We strive to prevent animal cruelty and suffering, and to promote the humane treatment of animals through education, awareness, and advocacy</p>
+
+        <p> We believe that every animal deserves to be treated with dignity, respect, and compassion. We are dedicated to improving the lives of animals in our community and beyond, and to creating a world where all animals are valued and protected.</p>
+
+        <p> By supporting PetHaven, you are making a positive impact in the lives of these animals and contributing to our mission of giving them a second chance at a happy and healthy life. We thank you for your generosity and for joining us in our efforts to make a better world for all creatures.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEMPORARY DONATE SECTION TEST -->
+<section class="testiblock" id="Donate">
+  <div>
+    <h3>Donate</h3>
+    <h3>This is a prototype!!!</h3>
+  </div>
+  <div style="text-align:center">
+    <p class="h3">PetHaven thrives off donations, become a donor today!</p>
+    <div>
+      <div>
+        <button type="button" class="donatebutton" onclick="window.location.href='https://donate.stripe.com/test_28ocOA7gi9UD3fi288';">Donate Today!</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <section>
+    <div class="column first">
+      <ul>
+        <li><a href="#Top">Home</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#Donate">Donate</a></li>
+      </ul>
+    </div>
+    <div class="column last"><a href="#Donate">Donate</a></div>
+  </section>
+
+  <div class="row logoside">
+    <div class="col-md-3">
+      <a href="#Top"><img src="images/pethavenLogoType.png" alt="Pet Haven"></a>
+    </div>
+    <div class="col-md-4 col-md-offset-5 logos">
+      <img src="images/logo_fb.png" alt="Facebook">
+      <img src="images/icons8-twitter-96.png" alt="Twitter">
+    </div>
+
+  </div>
+</footer>
+
+
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="js/jquery.slicknav.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>
