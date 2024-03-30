@@ -1,4 +1,4 @@
-![PetHavenLogoType](src\main\resources\static\images\pethavenLogoType.png)
+![PetHavenLogoType](src/main/resources/static/images/pethavenLogoType.png)
 # PetHaven Capstone Project
 
 *Kristina Khalid-Abasi, Jacob Slagle, Milan Haydel ([mhaydel2](https://github.com/mhaydel2)), Blake Dauterive, Gunnar Stall*
